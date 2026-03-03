@@ -22,7 +22,7 @@
         </Style>
     </Window.Resources>
 
-    <DockPanel LastChildFill="True">
+    <DockPanel>
 
 
 

@@ -32,7 +32,6 @@ namespace WpfApp1
         //Логіка Save
         void canExecute_Save(object sender, CanExecuteRoutedEventArgs e)
         {
-            // Кнопка активна, тільки якщо в полі є текст
             if (txtEditor != null && txtEditor.Text.Trim().Length > 0)
                 e.CanExecute = true;
             else
@@ -55,7 +54,7 @@ namespace WpfApp1
         //Логіка Open
         void canExecute_Open(object sender, CanExecuteRoutedEventArgs e)
         {
-            e.CanExecute = true; // Завжди доступна
+            e.CanExecute = true; 
         }
 
         void execute_Open(object sender, ExecutedRoutedEventArgs e)
